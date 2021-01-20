@@ -45,7 +45,9 @@ nav a:hover{
 .secao{
     margin: 0px auto;
     height: 500px;
-    width: 250px;
+    width: 280px;
+    padding-top: 10px;
+    
 }
 .imagem {
     width: 250px;
@@ -71,18 +73,17 @@ nav a:hover{
     background-image: url("../imagens/exercicios.png");
 }
 
-.temas {
-    background-image: url("../imagens/temas.png");
-}
 
 .conteudo{
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    margin: 30px;
     
 }
 .conteudo h1{
     font-family: "Alex Brush";
+    text-align: center;
 }
 
 
@@ -106,8 +107,8 @@ justify-content: center;
 .content{
     display: flex;
     justify-content: center;
+   
 }
-
 .secao{
     margin: 10px;
 }
