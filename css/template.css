@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+ 
+body {
+    margin: 0px;
+}
+
+
+#banner {
+    height: 200px;
+    background-image: url("../imagens/banner2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #551C78;
+
+}
+
+nav{
+background-color: black;
+color: white;
+}
+
+nav a{
+    display: block;
+    color: white;
+    font-family: "Alex Brush";
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+a {
+    
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: magenta;
+
+}
+
+.selected {
+    color: magenta;
+}
+
+.secao{
+    margin: 0px auto;
+    height: 500px;
+    width: 250px;
+}
+.imagem {
+    width: 250px;
+    height: 266px;
+    background-position: center;
+    
+}
+
+.produtos {
+    background-image:url("../imagens/prazer.png") ;
+
+    }
+
+.dicas {
+    background-image: url("../imagens/dicas.png");
+}
+
+.contos {
+    background-image: url("../imagens/no\ carro.png");
+}
+
+.saude {
+    background-image: url("../imagens/exercicios.png");
+}
+
+.temas {
+    background-image: url("../imagens/temas.png");
+}
+
+.conteudo{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.conteudo h1{
+    font-family: "Alex Brush";
+}
+
+
+@media only screen and (min-width: 600px){
+    #banner{
+        background-image: url("../imagens/banner1.png");
+        height: 383px;
+        background-position: center;
+        background-color: #551C78;
+        background-size: cover;
+    }
+
+    nav a{ 
+    margin: 0px 20px;
+text-align:center;}
+nav {
+display: flex;
+justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.secao{
+    margin: 10px;
+}
+.conteudo {
+    width: 780px;
+    margin: 0px auto;
+}
+}
